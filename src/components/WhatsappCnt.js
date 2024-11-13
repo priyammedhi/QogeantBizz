@@ -33,7 +33,7 @@ const WhatsappCnt = () => {
         </div>
       )}
       <a
-        href="https://wa.me/8472824009" // Replace with your WhatsApp number
+        href="https://wa.me/9706086345" // Replace with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
         style={{

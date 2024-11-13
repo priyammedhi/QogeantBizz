@@ -14,20 +14,20 @@ function Footer() {
               style={{ width: '120px', borderRadius: '10px' }} 
             />
             <p className="mt-2 mb-0">Qogeant-Bizz</p>
-            <p className="mb-0">123 Main Street, Suite 100</p>
-            <p className="mb-0">City, State, ZIP</p>
+            <p className="mb-0">Assam State Centre, The Institution of Engineers, Lakhtokia</p>
+            <p className="mb-0">Guwhati, Assam, 781001</p>
           </div>
           <div className="col-12 col-md-4 mb-3 mb-md-0 text-center text-md-left">
             <h5>Contact Us:</h5>
-            <p className="mb-0">your.email@example.com</p>
-            <p className="mb-0">Tel: (123) 456-7890</p>
+            <p className="mb-0">info@qbizznow.info</p>
+            <p className="mb-0">Tel: +91-9706086345 </p>
           </div>
           <div className="col-12 col-md-4 ">
             <Map/>
           </div>
         </div>
         <div className="text-center mt-3">
-          <p className="mb-0">&copy; 2024 Qogeant-Bizz. All rights reserved.</p>
+          <p className="mb-0">&copy; 2017 Qogeant-Bizz. All rights reserved.</p>
         </div>
       </div>
     </footer>
