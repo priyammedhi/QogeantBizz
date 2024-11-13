@@ -29,8 +29,15 @@ const Map = () => {
             };
 
             // Add markers with Font Awesome icons
-            L.marker([26.182467, 91.745934], { icon: createIcon('fas fa-map-marker-alt') }).addTo(map)
-                .bindPopup('QOGEANT-BIZZ');
+            L.marker([26.182618, 91.746064], { icon: createIcon('fas fa-map-marker-alt') }).addTo(map)
+            .bindPopup(`
+                <div>
+                    <strong>QOGEANT-BIZZ</strong><br>
+                    <a href="https://www.google.com/maps?q=26.182467,91.745934" target="_blank" rel="noopener noreferrer">
+                        Open in Google Maps
+                    </a>
+                </div>
+            `);
         }
 
         return () => {
