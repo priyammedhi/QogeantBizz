@@ -37,7 +37,7 @@ function ContactUs() {
       showConfirmButton: false,
     });
 
-    formData.append("access_key", "#");
+    formData.append("access_key", "9fe6a00f-e79c-4ff9-b8d0-da6469844851");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -71,7 +71,7 @@ function ContactUs() {
               <h1 className="text-center text-md-left">For further information,<br /> reach out to us</h1>
               <br />
               <div className="contact-details" style={{ textAlign: 'left', maxWidth: '400px', margin: 'auto' }}>
-                <p><FontAwesomeIcon className='fa-2xl' icon={faPhone} style={{color:'rgb(92, 107, 66)'}} /> <strong> Phone : </strong> +91 97060 86345</p>
+                <p><FontAwesomeIcon className='fa-2xl' icon={faPhone} style={{color:'rgb(92, 107, 66)'}} /> <strong> Phone : </strong> +91 361 357 8853</p>
                 <p><FontAwesomeIcon className='fa-2xl' icon={faEnvelope} style={{color:'rgb(92, 107, 66)'}} /> <strong> Email : </strong> info@qbizznow.info</p>
                 <p><FontAwesomeIcon className='fa-2xl' icon={faMapMarkerAlt} style={{color:'rgb(92, 107, 66)'}} /> <strong> Address : </strong> Assam State Center, Lakhtokia, Assam</p>
               </div>

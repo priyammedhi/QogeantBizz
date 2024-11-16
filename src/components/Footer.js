@@ -20,7 +20,7 @@ function Footer() {
           <div className="col-12 col-md-4 mb-3 mb-md-0 text-center text-md-left">
             <h5>Contact Us:</h5>
             <p className="mb-0">info@qbizznow.info</p>
-            <p className="mb-0">Tel: +91-9706086345 </p>
+            <p className="mb-0">Tel: +91 361 357 8853 </p>
           </div>
           <div className="col-12 col-md-4 ">
             <Map/>

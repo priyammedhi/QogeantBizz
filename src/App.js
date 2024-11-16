@@ -9,6 +9,7 @@ import BacktoTop from './components/BacktoTop';
 import WhatsappCnt from './components/WhatsappCnt';
 import ScrolltoTop from './components/ScrolltoTop';
 import ContactUs from './components/ContactUs';
+import gallery from './components/gallery';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/services" element={<Services />} />
+          <Route path='/gallery' element={<Gallery/>} />
         </Routes>
         <ContactUs/>
         <Footer />
