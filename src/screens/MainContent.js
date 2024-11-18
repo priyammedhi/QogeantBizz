@@ -171,7 +171,7 @@ function MainContent() {
           <h1 style={{ fontWeight: 'lighter' }}>For Any Services In Guwahati.</h1>
         </div>
         <div>
-          <p>Call us @ <a href="tel:9706086345" style={{ color: 'black' }}>+919706086345</a></p>
+          <p>Call us @ <a href="tel:+913613578853" style={{ color: 'black' }}>+913613578853</a></p>
         </div>
         <img
           src="https://qweb3.wordpress.com/wp-content/uploads/2024/07/screenshot-2024-07-11-113815.svg_.jpg?w=1024"
