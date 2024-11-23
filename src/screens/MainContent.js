@@ -195,7 +195,7 @@ function MainContent() {
           <br />
           <br />
           <div>
-            <img data-aos="zoom-in-up" className='img-fluid' src={require("../images/grouppic.jpg")} style={{ width: '300px', borderRadius: '20px' }} alt='employeesimg'/>
+            <img data-aos="zoom-in-up" className='img-fluid' src={require("../images/grouppic.png")} style={{ width: '300px', borderRadius: '20px' }} alt='employeesimg'/>
             <br />
             <br />
             <h6 className='text-white'>Q-EMPLOYEES</h6>

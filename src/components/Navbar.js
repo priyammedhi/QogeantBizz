@@ -22,8 +22,11 @@ function Navbar() {
           <li className="nav-item">
             <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/services">Services</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/gallery">Updates and Gallery</NavLink>
+          </li>
         </ul>
-        <a href="tel:9706086345"><button type="button" className="btn btn-dark ms-3">Contact Us</button></a>
+        <a href="tel:+913613578853"><button type="button" className="btn btn-dark ms-3">Contact Us</button></a>
       </div>
     </div>
     </nav >
