@@ -31,14 +31,14 @@ const Gallery = () => {
     image5,
     image6,
     image2,
-    image1
+    image1      
   ];
 
   return (
     <div style={{ backgroundColor: 'rgb(149, 166, 119)', padding: '60px 0' }}>
       <div className="m-5">
         <div className="gallery-container">
-          <div className="gallery-content">
+          <div className="gallery-content">,
             {/* Left Section: Heading */}
             <div className="gallery-heading">
               <h1 style={{ fontFamily: 'Dancing Script', fontSize: '3rem', fontStyle: 'solid' }}>Discover Our Latest Updates</h1>

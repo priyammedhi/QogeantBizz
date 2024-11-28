@@ -29,7 +29,7 @@ const Map = () => {
             };
 
             // Add markers with Font Awesome icons
-            L.marker([26.182618, 91.746064], { icon: createIcon('fas fa-map-marker-alt') }).addTo(map)
+            L.marker([26.182563,91.746062], { icon: createIcon('fas fa-map-marker-alt') }).addTo(map)
             .bindPopup(`
                 <div>
                     <strong>QOGEANT-BIZZ</strong><br>
