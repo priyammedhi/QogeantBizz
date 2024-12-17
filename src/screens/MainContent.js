@@ -192,15 +192,6 @@ function MainContent() {
           <div>
             <h1 className='text-white' style={{ fontFamily: "Grey Qo", fontStyle: 'oblique' }}>“When you care enough to send the very best”</h1>
           </div>
-          <br />
-          <br />
-          <div>
-            <img data-aos="zoom-in-up" className='img-fluid' src={require("../images/grouppic.png")} style={{ width: '300px', borderRadius: '20px' }} alt='employeesimg'/>
-            <br />
-            <br />
-            <h6 className='text-white'>Q-EMPLOYEES</h6>
-            <p className='text-secondary'>GUWAHATI</p>
-          </div>
         </div>
       </div>
 
