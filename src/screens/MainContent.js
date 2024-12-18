@@ -64,7 +64,7 @@ function MainContent() {
 
 
   return (
-    <div>
+    <div className='mt-5'>
       <div className="container main-content bg-dark" >
         <div className="text-overlay text-center text-white">
           <h1>QOGEANT-BIZZ (India) PRIVATE LIMITED!</h1>
@@ -76,7 +76,7 @@ function MainContent() {
         <div className="services-container" style={{ backgroundColor: 'white', padding: '50px 20px' }}>
           <div className="container text-center">
             <div className="row align-items-center">
-              <div className="col-md-8 text-start">
+              <div className="col-md-8 text-justify">
                 <p>
                   Qogeant-Bizz (India) Private Limited has started on 30/10/2017, Qogeant is an IT consulting firm that offers complete office solution for all classified spaces. Since its inception, the company embraces a prolific record of providing excellent and dedicated services to its clients.
                 </p>
@@ -94,89 +94,88 @@ function MainContent() {
             <h2 className="mb-4">Our Services</h2>
             <br />
 
-            <div className="row text-start">
+            <div className="row text-justify">
               <div data-aos="fade-right" className="col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">Office Automation</h5>
-                    <p className="card-text">
-                      Office automation refers to the computer machineries and softwares used to digitally create, collect, store, manipulate, and relay office information needed for accomplishing basic tasks. Office automation helps in optimizing or automating existing office procedures.
-                      <a href="/services#getinfo"  >
-                        &gt;&gt;
-                      </a>
-                    </p>
+                <a href="/services#getinfo" className="text-decoration-none">
+                  <div className="card h-100 shadow-sm">
+                    <div className="card-body">
+                      <h5 className="card-title">Office Automation</h5>
+                      <p className="card-text">
+                        Office automation refers to the computer machineries and softwares used to digitally create, collect, store, manipulate, and relay office information needed for accomplishing basic tasks. Office automation helps in optimizing or automating existing office procedures.
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div data-aos="zoom-in-up" className="col-md-4 mb-4">
+
+              <div data-aos="zoom-in-up" className="col-md-4 mb-4"><a href="/services#getinfo"  className="text-decoration-none" >
                 <div className="card h-100 shadow-sm">
                   <div className="card-body">
                     <h5 className="card-title">Data Center</h5>
                     <p className="card-text">
                       Qbizz centralizes an organization’s shared IT operations and equipment for the purposes of storing, processing, and disseminating data and applications. Because they store the most critical and proprietary assets, data centers are vital to the continuity of daily operations.
-                      <a href="/services#getinfo"  >
-                        &gt;&gt;
-                      </a>
+
                     </p>
                   </div>
                 </div>
+              </a>
               </div>
 
               <div data-aos="fade-left" className="col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">Networking & Security</h5>
-                    <p className="card-text">
-                      Qbizz Provides Network security service which consists of the policies, processes, and practices adopted to prevent, detect and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.
-                      <a href="/services#getinfo"  >
+                <a href="/services#getinfo"  className="text-decoration-none" >
+                  <div className="card h-100 shadow-sm">
+                    <div className="card-body">
+                      <h5 className="card-title">Networking & Security</h5>
+                      <p className="card-text">
+                        Qbizz Provides Network security service which consists of the policies, processes, and practices adopted to prevent, detect and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.
                         &gt;&gt;
-                      </a>
-                    </p>
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div data-aos="fade-right" className="col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">Smart Class</h5>
-                    <p className="card-text">
-                      Qogeant-Bizz (India) Private Limited provides digitally equipped classroom solutions, enhancing the learning experience for students through advanced technological setups.
-                      <a href="/services#getinfo"  >
+                <a href="/services#getinfo"  className="text-decoration-none" >
+                  <div className="card h-100 shadow-sm">
+                    <div className="card-body">
+                      <h5 className="card-title">Smart Class</h5>
+                      <p className="card-text">
+                        Qogeant-Bizz (India) Private Limited provides digitally equipped classroom solutions, enhancing the learning experience for students through advanced technological setups.
                         &gt;&gt;
-                      </a>
-                    </p>
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div data-aos="zoom-in-up" className="col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">UAV</h5>
-                    <p className="card-text">
-                      An Unmanned Aerial Vehicle (UAV) is an aircraft with no pilot on board. In the commercial and civilian sector, UAVs are used for purposes like surveillance, photography, and delivery services.
-                      <a href="/services#getinfo"  >
+                <a href="/services#getinfo"  className="text-decoration-none" >
+                  <div className="card h-100 shadow-sm">
+                    <div className="card-body">
+                      <h5 className="card-title">UAV</h5>
+                      <p className="card-text">
+                        An Unmanned Aerial Vehicle (UAV) is an aircraft with no pilot on board. In the commercial and civilian sector, UAVs are used for purposes like surveillance, photography, and delivery services.
                         &gt;&gt;
-                      </a>
-                    </p>
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div data-aos="fade-left" className="col-md-4 mb-4">
+                  <a href="/services#getinfo"  className="text-decoration-none" >
                 <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">Smart City</h5>
-                    <p className="card-text">
-                      Qbizz provides a technologically modern urban area that uses different types of electronic methods and sensors to collect specific data. Insights gained from that data are used to manage assets, resources, and services efficiently.
-                      <a href="/services#getinfo"  >
+                    <div className="card-body">
+                      <h5 className="card-title">Smart City</h5>
+                      <p className="card-text">
+                        Qbizz provides a technologically modern urban area that uses different types of electronic methods and sensors to collect specific data. Insights gained from that data are used to manage assets, resources, and services efficiently.
                         &gt;&gt;
-                      </a>
-                    </p>
-                  </div>
+                      </p>
+                    </div>
                 </div>
+                  </a>
               </div>
             </div>
           </div>
@@ -186,7 +185,7 @@ function MainContent() {
       <div className="container d-flex justify-content-center">
         <div className="row m-3 align-items-center">
           {/* Left Column */}
-          <div data-aos="fade-right" className="col-md-7 text-center" style={{borderRadius:'10px',border:'2px solid black', backgroundColor: 'rgb(149, 166, 119)', padding: '50px' }}>
+          <div data-aos="fade-right" className="col-md-7 text-center" style={{ borderRadius: '10px', border: '2px solid black', backgroundColor: 'rgb(149, 166, 119)', padding: '50px' }}>
             <div>
               <h1 style={{ fontWeight: 'lighter' }}>For Any Services In Guwahati.</h1>
             </div>
@@ -223,7 +222,7 @@ function MainContent() {
 
       <div
         className="brands-section py-5"
-        style={{ padding: "50px 0",marginLeft:'0' }}
+        style={{ padding: "50px 0", marginLeft: '0' }}
       >
         <div className="container">
           <h2
@@ -240,7 +239,7 @@ function MainContent() {
               borderRadius: "10px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
               border: "2px solid black",
-              
+
             }}
           >
             <div className="d-none d-md-flex justify-content-center align-items-center flex-wrap" >
@@ -291,41 +290,41 @@ function MainContent() {
       </div>
 
 
-          <h2 className="text-center mb-4" style={{fontFamily: 'Georgia' }}>Client Reviews:</h2>
-        <div className="container" style={{border:'2px solid black',borderRadius:'10px', backgroundColor: 'rgb(149, 166, 119)'}}>
-          <div className="row d-flex justify-content-center mt-3">
-            {reviews.map((review, index) => (
-              <div className="col-md-4 mb-4" key={index} data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
-                <div className="review-card" style={{
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  borderRadius: '10px',
-                  height: '250px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between'
-                }}>
-                  <div className="stars" style={{ color: 'gold' }}>
-                    {'★'.repeat(review.stars)}{'☆'.repeat(5 - review.stars)}
-                  </div>
-                  <p style={{ fontStyle: 'italic', overflow: 'hidden', textOverflow: 'ellipsis' }}>"{review.text}"</p>
-                  <p><strong>- {review.name}</strong>, {review.designation}</p>
+      <h2 className="text-center mb-4" style={{ fontFamily: 'Georgia' }}>Client Reviews:</h2>
+      <div className="container" style={{ border: '2px solid black', borderRadius: '10px', backgroundColor: 'rgb(149, 166, 119)' }}>
+        <div className="row d-flex justify-content-center mt-3">
+          {reviews.map((review, index) => (
+            <div className="col-md-4 mb-4" key={index} data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+              <div className="review-card" style={{
+                padding: '20px',
+                backgroundColor: 'white',
+                borderRadius: '10px',
+                height: '250px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between'
+              }}>
+                <div className="stars" style={{ color: 'gold' }}>
+                  {'★'.repeat(review.stars)}{'☆'.repeat(5 - review.stars)}
                 </div>
+                <p style={{ fontStyle: 'italic', overflow: 'hidden', textOverflow: 'ellipsis' }}>"{review.text}"</p>
+                <p><strong>- {review.name}</strong>, {review.designation}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-        <hr style={{ width: "40%", margin: "30px auto", border: "1px solid #000" }}></hr>
+      </div>
+      <hr style={{ width: "40%", margin: "30px auto", border: "1px solid #000" }}></hr>
 
-        <div className="m-5 bg-light d-flex justify-content-center" style={{ borderRadius: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-          <div className='m-5 p-5'>
-            <h1 style={{ fontFamily: 'Georgia' }}>Come Join Us
-              On Our Exciting Journey!!</h1>
+      <div className="m-5 bg-light d-flex justify-content-center" style={{ borderRadius: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+        <div className='m-5 p-5'>
+          <h1 style={{ fontFamily: 'Georgia' }}>Come Join Us
+            On Our Exciting Journey!!</h1>
 
-            <p style={{ fontSize: '20px' }}>Stay in the loop with everything you need to know.</p>
-            <button type="button" class="btn btn-dark">Contact Us</button>
-          </div>
+          <p style={{ fontSize: '20px' }}>Stay in the loop with everything you need to know.</p>
+          <button type="button" class="btn btn-dark">Contact Us</button>
         </div>
+      </div>
       <div>
         <Achievements />
       </div>

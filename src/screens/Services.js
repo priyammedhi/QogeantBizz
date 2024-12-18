@@ -97,7 +97,7 @@ function Services() {
     };
 
     return (
-        <div style={{ backgroundColor: '#e8e1e5', padding: "75px 0" }}>
+        <div style={{ backgroundColor: '#e8e1e5'}}>
 
             <div className="epic-services-section" style={{
                 backgroundImage: `url(${require('../images/servicebg.jpg')})`,
@@ -120,12 +120,12 @@ function Services() {
                         <button className="btn btn-outline-dark dropdown-toggle" style={{ fontSize: '20px' }} type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         </button>
                         <ul className="dropdown-menu dropdown-menu-dark">
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('Office Automation')}>Office Automation</a></li>
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('Data Center')}>Data Center</a></li>
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('Networking & Security')}>Networking & Security</a></li>
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('Smart Class')}>Smart Class</a></li>
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('UAV')}>UAV</a></li>
-                            <li><a className="dropdown-item" href="#" onClick={() => setSelectedService('Smart City')}>Smart City</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('Office Automation')}>Office Automation</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('Data Center')}>Data Center</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('Networking & Security')}>Networking & Security</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('Smart Class')}>Smart Class</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('UAV')}>UAV</a></li>
+                            <li><a className="dropdown-item" onClick={() => setSelectedService('Smart City')}>Smart City</a></li>
                         </ul>
                     </h2><br />
                     <div className="row d-flex align-items-center justify-content-center">

@@ -9,7 +9,7 @@ import BacktoTop from './components/BacktoTop';
 import WhatsappCnt from './components/WhatsappCnt';
 import ScrolltoTop from './components/ScrolltoTop';
 import ContactUs from './components/ContactUs';
-import Gallery from './components/Gallery';
+import Gallery from './screens/Gallery';
 
 
 function App() {

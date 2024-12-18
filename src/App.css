@@ -5,9 +5,8 @@ html {
   scroll-behavior: smooth;
 }
 .main-content {
-  background-image: url('../src/images/bg.jpeg'); /* Adjust the path according to your project structure */
+  background-image: url('https://media.giphy.com/media/U4ExkAvRpVQGB0NMe0/giphy.gif');
   background-size: cover;
-  box-shadow:inset 0 0 0 1000px rgba(0,0,0,.5);
   background-position:center;
   width: 100%;
   width: 700px;
