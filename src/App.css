@@ -22,6 +22,7 @@ html {
     height: 200px; /* Adjust height for smaller screens */
     width: 100px;
     margin: 0 10px;
+    border-radius: 0;
   }
 
   .text-overlay h1 {
@@ -384,4 +385,77 @@ h1 {
 
 .icon-circle:hover {
   background-color: #005582; /* Darker blue on hover */
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  list-style: none;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.nav-item .dropdown-item {
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-item .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  padding: 4px;
+  transform: rotate(45deg); /* Default arrow direction */
+}
+
+.nav-item.dropdown:hover .dropdown-arrow {
+  transform: rotate(-135deg); /* Rotate arrow on hover */
+}
+.service-card {
+  width: 300px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.1); /* Zoom in */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%; /* Responsive width for smaller screens */
+  }
 }

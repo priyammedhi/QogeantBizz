@@ -62,8 +62,8 @@ function ContactUs() {
   };
 
   return (
-    <div className='p-5' style={{ backgroundColor: 'rgb(149, 166, 119)'}}>
-      <section id="contact" className="p-3 bg-light" style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+    <div className='p-5'>
+      <section id="contact" className="p-3" style={{  backgroundColor: 'rgb(149, 166, 119)',borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
         <div className="container bg-light" style={{border:'2px solid green', borderRadius:'10px'}}>
           <div className=" m-2 row align-items-center flex-column flex-md-row">
             {/* Left Column: Contact Information */}

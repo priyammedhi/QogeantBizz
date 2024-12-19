@@ -14,21 +14,48 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav" style={{
-          fontFamily: "Georgia", fontSize:'18px'}}>
-        <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
-            <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/">Home</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/services">Services</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/gallery">Updates and Gallery</NavLink>
-          </li>
-        </ul>
-        <a href="tel:+913613578853"><button type="button" className="btn btn-dark ms-3">Contact Us</button></a>
+          fontFamily: "Georgia", fontSize: '18px'
+        }}>
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/">Home</NavLink>
+            </li>
+            <li className="nav-item dropdown position-relative">
+              <NavLink
+                to="/services"
+                className="nav-link d-flex align-items-center"
+                id="servicesDropdown"
+              >
+                Services <span className="dropdown-arrow"></span>
+              </NavLink>
+              <ul className="dropdown-menu position-absolute" aria-labelledby="servicesDropdown">
+                <li>
+                  <NavLink
+                    className={({ isActive }) => `dropdown-item ${isActive ? 'active' : ''}`}
+                    to="/hservices"
+                  >
+                    Hardware
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) => `dropdown-item ${isActive ? 'active' : ''}`}
+                    to="/services/software"
+                  >
+                    Software
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+
+
+            <li className="nav-item">
+              <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} to="/gallery">Updates and Gallery</NavLink>
+            </li>
+          </ul>
+          <a href="tel:+913613578853"><button type="button" className="btn btn-dark ms-3">Contact Us</button></a>
+        </div>
       </div>
-    </div>
     </nav >
   );
 }

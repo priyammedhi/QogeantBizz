@@ -322,7 +322,7 @@ function MainContent() {
             On Our Exciting Journey!!</h1>
 
           <p style={{ fontSize: '20px' }}>Stay in the loop with everything you need to know.</p>
-          <button type="button" class="btn btn-dark">Contact Us</button>
+          <a href='tel:+913613578853'> <button type="button" class="btn btn-dark">Contact Us</button></a>
         </div>
       </div>
       <div>
