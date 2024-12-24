@@ -40,7 +40,7 @@ function Navbar() {
                 <li>
                   <NavLink
                     className={({ isActive }) => `dropdown-item ${isActive ? 'active' : ''}`}
-                    to="/services/software"
+                    to="sservices"
                   >
                     Software
                   </NavLink>

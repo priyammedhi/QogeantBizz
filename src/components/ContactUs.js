@@ -68,12 +68,12 @@ function ContactUs() {
           <div className=" m-2 row align-items-center flex-column flex-md-row">
             {/* Left Column: Contact Information */}
             <div className="col-md-6">
-              <h1 className="text-center text-md-left">For further information,<br /> reach out to us</h1>
+              <h1 className="text-center text-md-left">Too Know More,<br /> Reach Out to Us</h1>
               <br />
               <div className="contact-details" style={{ textAlign: 'left', maxWidth: '400px', margin: 'auto' }}>
                 <p><FontAwesomeIcon className='fa-2xl' icon={faPhone} style={{color:'rgb(92, 107, 66)'}} /> <strong> Phone : </strong> +91 361 357 8853</p>
-                <p><FontAwesomeIcon className='fa-2xl' icon={faEnvelope} style={{color:'rgb(92, 107, 66)'}} /> <strong> Email : </strong> info@qbizznow.info</p>
-                <p><FontAwesomeIcon className='fa-2xl' icon={faMapMarkerAlt} style={{color:'rgb(92, 107, 66)'}} /> <strong> Address : </strong> Assam State Center, Lakhtokia, Assam</p>
+                <br/><p><FontAwesomeIcon className='fa-2xl' icon={faEnvelope} style={{color:'rgb(92, 107, 66)'}} /> <strong> Email : </strong> info@qbizznow.info</p>
+                <br/><p><FontAwesomeIcon className='fa-2xl' icon={faMapMarkerAlt} style={{color:'rgb(92, 107, 66)'}} /> <strong> Address : </strong> Assam State Center, Lakhtokia, Assam</p>
               </div>
               <br />
             </div>

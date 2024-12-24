@@ -11,6 +11,7 @@ import ScrolltoTop from './components/ScrolltoTop';
 import ContactUs from './components/ContactUs';
 import Gallery from './screens/Gallery';
 import Allservices from './screens/Allservices';
+import SServices from './screens/SServices';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/hservices" element={<HServices />} />
           <Route path='/gallery' element={<Gallery/>} />
           <Route path='/services' element={<Allservices/>}/>
+          <Route path='/sservices' element={<SServices/>}/>
         </Routes>
         <ContactUs/>
         <Footer />
