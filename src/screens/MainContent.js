@@ -194,12 +194,12 @@ function MainContent() {
                 Call us @ <a href="tel:+913613578853" style={{ color: 'black' }}>+913613578853</a>
               </p>
             </div>
-            <img
+            {/* <img
               src="https://qweb3.wordpress.com/wp-content/uploads/2024/07/screenshot-2024-07-11-113815.svg_.jpg?w=1024"
               alt="Service in Guwahati"
               className="img-fluid"
               style={{ borderRadius: '15px' }}
-            />
+            /> */}
             <div className="container mt-3">
               <p>
                 Qognant is an IT consulting firm that offers complete office solutions for all classified spaces. Since its inception, the company embraces a prolific record of providing excellent and dedicated services to its clients.
